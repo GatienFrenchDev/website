@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Gatien Dev</title>
+</head>
+<body>
+    <!-- BARRE DE NAVIGATION -->
+    <div id="navbar">
+        <img src="img/logo.png" alt="logo" id="logo">
+        <li class="menu"><a class="nav" href="index.html">accueil</a></li>
+        <li class="menu"><a class="nav" href="projects.html">projets</a></li>
+        <li class="menu"><a class="nav" href="language.html">langages</a></li>
+        <li class="menu"><a class="nav" href="contact.html">contact</a></li>
+    </div>
+
+    <!-- TEXTE MILIEU D'ECRAN -->
+    <div id="milieu">
+        <p id="milieu">Développeur et passionné.</p>
+        <button id="voir" onClick="document.getElementById('titre-bio').scrollIntoView();">Voir plus <i class="fa fa-chevron-circle-down"></i></button>
+    </div>
+
+    <!-- BIOGRAPHIE -->
+    <h3 id="titre-bio">Bonjour !</h3>
+    <p id="biographie">
+        Je m'appelle Gatien, j'ai 16 ans et je m'intéresse à tout ce qui touche à la programmation. <br>
+        Je maitrise différents langages : JavaScript, C++, C#, Java, HTML, CSS ...<br>
+        Je suis en classe de 1<sup>ère</sup> avec comme spécialités : Maths, NSI et Anglais Contemporain.
+    </p>
+    <div id="btn">
+        <a href="projects.html"><button id="serie"><i class="fa fa-bookmark"></i> PROJETS</button></a>
+        <a href="language.html"><button id="serie"><i class="fa fa-pie-chart"></i> LANGAGES</button></a>
+        <a href="contact.html"><button id="serie"><i class="fa fa-envelope"></i> CONTACT</button></a>
+    </div>
+</body>
+</html>

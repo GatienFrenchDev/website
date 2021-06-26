@@ -1,0 +1,70 @@
+div#carrousel{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+button.carrousel{
+    border: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px 1px white;
+    opacity: 80%;
+}
+
+button#bot-js{
+    background: url('../img/shewley_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+button#hypixel{
+    background: url('../img/boussole.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+button#martin{
+    background: url('../img/st_martin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* DESCRIPTION DU PROJET */
+
+div#description{
+    display: none;
+    margin-top: 50px;
+}
+
+h4#titre-projet{
+    margin-left: 10%;
+    font-size: 40px;
+    color: white;
+}
+p#infos{
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* PARTIE RESPONSIVE */
+@media screen and (max-width: 900px) {
+
+    div#carrousel{
+        margin-top: 30%;
+        display: grid;
+    }
+    button.carrousel{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 50%;
+    }
+}

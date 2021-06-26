@@ -1,0 +1,136 @@
+/* NAVBAR */
+
+div#navbar{
+    justify-content: space-evenly;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    margin-top: 2.4%;
+    margin-left: 2.4%;
+}
+a.nav{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+    margin-right: 2%;
+    width: auto;
+}
+img#logo{
+    max-height:95px;
+    height: auto;
+    width: auto;
+}
+
+a.nav:hover{
+    color: #ff7a7a;
+}
+
+/* TEXTE DU MILIEU */
+
+div#milieu{
+    margin-top: 15%;
+}
+
+p#milieu{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+button#voir{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    background-color: #ff7a7a;
+}
+
+/* BIOGRAPHIE */
+
+h3#titre-bio{
+    margin-top: 38%;
+    padding-top: 12%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+p#biographie{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+div#btn{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 80%;
+    margin-top: 3.5%;
+}
+
+button#serie{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    background-color: #ff7a7a;
+}
+
+
+
+/* PARTIE POUR MOBILE (RESPONSIVE) */
+
+@media screen and (max-width: 900px) {
+    a.nav{
+      font-size: 13px;
+    }
+    img#logo{
+        max-width:50px;
+        height: auto;
+        width: auto;
+    }
+    p#milieu{
+        font-size: 20px;
+    }
+    div#milieu{
+        margin-top: 40%;
+    }
+    button#voir{
+        font-size: 18px;
+        padding: 8px;
+    }
+    h3#titre-bio{
+        font-size: 25px;
+        margin-top: 150%;
+    }
+    p#biographie{
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    button#serie{
+        font-size: 12px;
+        padding: 6px;
+    }
+    div#btn{
+        margin-right: 5%;
+        margin-left: 5%;
+        justify-content: space-around;
+    }
+  }
