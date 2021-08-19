@@ -30,7 +30,7 @@ function martin(){
 
     // attribution du texte dans les balises <h4> et <p>
     document.getElementById('titre-projet').innerHTML = "Gestion des oublis de carte de cantine :"
-    document.getElementById('infos').innerHTML = `Ce logiciel, codé en Visual Basic, permettait d'enregistrer chaque oubli de carte de cantine d'un élève, de le stockerdans une base de données, pour pouvoir ensuite les ressortir à l'aide du logiciel. Ce logiciel est sécurisé par un chiffrement de type AES afin de garder les informations des élèves en lieu sûr.`
+    document.getElementById('infos').innerHTML = `Ce logiciel, codé en Visual Basic, permettait d'enregistrer chaque oubli de carte de cantine d'un élève, de le stocker dans une base de données, pour pouvoir ensuite les ressortir à l'aide du logiciel. Ce logiciel est sécurisé par un chiffrement de type AES afin de garder les informations des élèves en lieu sûr.`
 
     // Affichage de la div "description"
     div.style.display = "block"
