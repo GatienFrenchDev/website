@@ -3,7 +3,7 @@ function shewley(){
     let div = document.getElementById('description')
 
     // attribution du texte dans les balises <h4> et <p>
-    document.getElementById('titre-projet').innerHTML = 'Bot Shewley :'
+    document.getElementById('titre-projet').innerHTML = 'Bot Discord :'
     document.getElementById('infos').innerHTML = "Le bot Shewley est un bot Discord codé en JavaScript et tournant sur l'environnement Node JS. <br><br> Ce bot permet, par exemple, de pouvoir de pouvoir jouer de la musique venant de Youtube dans un channel vocal (en utilisant un package nommé YT-Core), ou bien encore de pouvoir lookup (date de création du compte, identifiant, photo de profil) un membre du serveur Discord à l'aide d'une seule commande! <br><br> Toutes les fonctionnalités du bot sont listées sur le repo du bot, qui est sur mon GitHub."
 
     // Affichage de la div "description"
