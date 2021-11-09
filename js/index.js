@@ -29,8 +29,8 @@ function martin(){
     let div = document.getElementById('description')
 
     // attribution du texte dans les balises <h4> et <p>
-    document.getElementById('titre-projet').innerHTML = "Gestion des oublis de carte de cantine :"
-    document.getElementById('infos').innerHTML = `Ce logiciel, codé en Visual Basic, permettait d'enregistrer chaque oubli de carte de cantine d'un élève, de le stocker dans une base de données, pour pouvoir ensuite les ressortir à l'aide du logiciel. Ce logiciel est sécurisé par un chiffrement de type AES afin de garder les informations des élèves en lieu sûr.`
+    document.getElementById('titre-projet').innerHTML = "Logiciel de gestion d'absence scolaire"
+    document.getElementById('infos').innerHTML = `Ce logiciel, codé en C#, permet d'enregistrer et gérer les absences de chaque élève, de le stocker dans une base de données, pour pouvoir ensuite les ressortir à l'aide du logiciel.`
 
     // Affichage de la div "description"
     div.style.display = "block"
