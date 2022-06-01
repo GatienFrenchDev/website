@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    animation: fadein 2s;
+}
+
+body {
+    background-color: black;
+}
+
+div.parent {
+    margin-left: 8vw;
+    height: 100vh;
+    display: block;
+    margin-top: 25vh;
+}
+
+p {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+p#intro {
+    text-transform: uppercase;
+}
+
+p#nom {
+    font-size: 12vh;
+    margin-bottom: 3vh;
+}
+
+p#dev {
+    color: #74f06b;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    margin-bottom: 1.8vh;
+}
+
+p#description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8vh;
+    color: #5b5b5b;
+    margin-bottom: 1.5vw;
+}
+
+div.parent button {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.7vh;
+    /* font-weight: bold; */
+    background-color: #4ecf44;
+    border: none;
+    width: 12vw;
+    height: 5vh;
+    border-radius: 50px;
+    padding: 0.5vw;
+}
+
+div.parent button:hover{
+    cursor: pointer;
+    /* font-size: 2vh; */
+}
+
+button#langue{
+    background-color: black;
+    border: solid #fff 1px;
+    height: 5.5vh;
+    width: 5.5vh;
+    border-radius: 50%;
+    font-size: 2.4vh;
+    position: fixed;
+    right: 1.5%;
+    bottom: 2.5%;
+}
+
+button#langue:hover{
+    cursor: pointer;
+    background-color: #080808;
+}
+
+img{
+    position: absolute;
+    height: 87%;
+    right: 6%;
+    top: 5%;
+}
+
+@keyframes fadein {
+    from {
+        margin-top: 3px;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
