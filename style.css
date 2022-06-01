@@ -45,7 +45,7 @@ p#description {
     font-family: 'Lato', sans-serif;
     font-size: 1.8vh;
     color: #5b5b5b;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
 }
 
 div.parent button {
@@ -55,7 +55,6 @@ div.parent button {
     background-color: #4ecf44;
     border: none;
     width: 12vw;
-    min-width: 150px;
     height: 5vh;
     border-radius: 50px;
     padding: 0.5vw;
@@ -98,11 +97,5 @@ img{
 
     to {
         opacity: 1;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    img{
-        display: none;
     }
 }
